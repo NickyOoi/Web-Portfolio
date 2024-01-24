@@ -1,0 +1,115 @@
+html, body {
+    height: 100%;
+}
+
+#menuBar {
+    /*background-color: white;*/
+}
+
+#titleName {
+    font-family: 'DM Serif Display', serif;
+    font-size: 100rem;
+    padding-left: 20px;
+    padding-top: 23px;
+}
+
+#intro {
+    padding-top: 16%;
+    height: 100%;
+    background-color: orange;
+} 
+
+#introTitle {
+    letter-spacing: 0.3px;
+}
+
+#career {
+    padding-top: 13%;
+    height: 100%;
+    background-color: peachpuff;
+}
+
+#firstCareerCard {
+    left: 5.5rem;
+    top: 1rem;
+    width: 20rem;
+    height: 18rem;
+}
+
+#secondCareerCard {
+    bottom: 22rem;
+    left: 2.5rem;
+    width: 20rem;
+    height: 17rem;
+}
+
+#thirdCareerCard {
+    top: 1rem;
+    right: 1rem;
+    width: 22rem;
+    height: 14rem;
+}
+
+#projects {
+    padding-top: 8%;
+    height: 100%;
+    background-color: brown;
+}
+
+
+
+
+#education {
+    height: 100%;
+}
+
+#educationContent {
+    margin-top: 90px;
+}
+
+
+/* Adds the bar in between the bullet points */
+.list-ic li {
+    position: relative;
+}
+/* Creates the round bullet points */
+.list-ic li span {
+    display: inline-block;
+    font-weight: 800;
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    line-height: 3em;
+    border-radius: 2em;
+    background: lightslategray;
+    color: white;
+    position: relative;
+}
+/* Adds the bar in between the bullet points */
+.list-ic li::before {
+    content: '';
+    position: absolute;
+    background: lightgray;
+    z-index: -1;
+}
+/* Move the list item to horizontal */
+.list-ic.horizontal li {
+    display: inline-block;
+}
+/* Adds the spacing in between each bullet points */
+.list-ic.horizontal li span {
+    margin: 8em;
+    top: 8em;
+    left: 6em;
+}
+/* Adds the bar in between the bullet points */
+.list-ic.horizontal li::before {
+    top: 16.4em;
+    right: 5.3em;
+    width: 12em;
+    height: 0.2em;
+}
+/* Removes the bar before the first item on the list */
+.list-ic li:first-child::before {
+    display: none;
+}
