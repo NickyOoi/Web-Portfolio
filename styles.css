@@ -1,9 +1,10 @@
 html, body {
     height: 100%;
+    position: relative;
 }
 
 #menuBar {
-    /*background-color: white;*/
+    background-color: white;
 }
 
 #titleName {
@@ -16,7 +17,6 @@ html, body {
 #intro {
     padding-top: 16%;
     height: 100%;
-    background-color: orange;
 } 
 
 #introTitle {
@@ -26,7 +26,6 @@ html, body {
 #career {
     padding-top: 13%;
     height: 100%;
-    background-color: peachpuff;
 }
 
 #firstCareerCard {
@@ -53,20 +52,22 @@ html, body {
 #projects {
     padding-top: 8%;
     height: 100%;
-    background-color: brown;
 }
 
-
-
-
-#education {
+#achievements {
+    padding-top: 7%;
     height: 100%;
 }
 
-#educationContent {
-    margin-top: 90px;
+#achievementsContent {
+    padding-left: 8rem;
+    padding-top: 0.5rem;
 }
 
+.card-body ul li {
+    padding-bottom: 1rem;
+    margin-left: 4rem;
+}
 
 /* Adds the bar in between the bullet points */
 .list-ic li {

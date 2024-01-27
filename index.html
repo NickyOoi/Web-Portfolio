@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body data-bs-spy="scroll">
 
   <!--Header Menu Bar-->
   <div class="container fixed-top" id="menuBar">
@@ -33,7 +33,7 @@
           <a href="#projects" class="nav-link">My Personal Projects</a>
         </li>
         <li class="nav-item">
-          <a href="#education" class="nav-link">Education</a>
+          <a href="#achievements" class="nav-link">My Achievements</a>
         </li>
       </ul>
 
@@ -59,6 +59,7 @@
       
     </div>
   </div>
+  <hr style="height: 5px; width: 80%; margin: auto; color:gray; background-color:gray">
 
   <!--Career Journey-->
   <div class="container" id="career">
@@ -135,6 +136,7 @@
 
     </div>
   </div>  
+  <hr style="height: 5px; width: 80%; margin: auto; color:gray; background-color:gray" class="mt-5">
 
   <!--Personal Projects-->
   <div class="container" id="projects">
@@ -273,16 +275,87 @@
 
     </div>
   </div>
+  <hr style="height: 5px; width: 80%; margin: auto; color:gray; background-color:gray" class="mt-5">
 
-  <!--Education-->
-  <div class="container col-xxl-10 px-4" id="education">
-    <div class="row flex-lg-row-reverse align-items-center g-5" id="educationContent">
+  <!--Achievements-->
+  <div class="container" id="achievements">
+    <div id="achievementsContent">
+
+      <div class="card" style="max-width: 1040px;">
+        <div class="row g-0 mt-4">
+          <div class="col-md-12">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-1">
+                  <img src="./images/band.png"  class="img-fluid rounded-start" alt="band">
+                </div>
+                <div class="col">
+                  <h2 class="card-title fw-bolder pb-5">Achievements</h2>
+                </div>
+              </div>
+              <ul>
+                <li>
+                  <p class="font-monospace">
+                    Top 10 Finalist for <span class="fst-italic fw-bold">Deloitte Software Engineering Award</span> & <span class="fst-italic fw-bold">International Student Award</span> at Top 100 Grad
+                    Connection - <span class="fst-italic">2018</span>
+                  </p>
+                </li>
+                <li>
+                  <p class="font-monospace">
+                    Global Ambassador for Hong Kong Interns Visit at Taylor's University - <span class="fst-italic">2015</span>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mt-3" style="max-width: 1040px;">
+        <div class="row g-0 mt-4">
+          <div class="col-md-12">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-1">
+                  <img src="./images/diploma.png" class="img-fluid rounded-start" alt="diploma">
+                </div>
+                <div class="col">
+                  <h2 class="card-title fw-bolder pb-5">Certifications</h2>
+                </div>
+              </div>
+              <ul>
+                <li>
+                  <p class="font-monospace">
+                    RMIT University Aiesec Hackathon - <span class="fst-italic">2017</span>
+                  </p>
+                </li>
+                <li>
+                  <p class="font-monospace">
+                    <span class="fst-italic fw-bold">Online Professionals</span> course from Google Web Academy - <span class="fst-italic">2015</span>
+                  </p>
+                </li>
+                <li>
+                  <p class="font-monospace">
+                    Google <span class="fst-italic fw-bold">Cloud Printing with Chrome</span> workshop - <span class="fst-italic">2015</span>
+                  </p>
+                </li>
+                <li>
+                  <p class="font-monospace">
+                    Taylor's University Hackathon - <span class="fst-italic">2014</span>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
-  
+
   <!--Footer-->
   <div class="container">
-    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5 border-top">
 
       <div class="col mb-3">
         <div class="nav">
